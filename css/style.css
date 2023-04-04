@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding-left:0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family:'source Serif Pro', serif;
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+/**** The end  reset css ****/
+
+body{
+
+    max-width: 1440px;
+
+
+}
+
+/*** start header style ***/
+
+.cabecalho {
+    padding:30px 15px;
+    position: relative;
+
+}
+
+.cabecalho .logo {
+
+    background: url(/src/images/logo.jpg)center center no-repeat;
+    width:85px ;
+    height: 85px;
+    display: inline-block;
+
+}
+.cabecalho .logo h1 {
+
+    font-size: 0;
+}
+
+.cabecalho nav {
+
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.cabecalho ul li {
+
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+
+    font-weight: bold;
+    color: #8E5B5A;
+
+}
+
+
+.panel {
+    background: url(../src/images/painel.jpg) center center  no-repeat;
+    height: 600px;
+
+}
+.panel h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.section-with-text {
+    padding: 153px;
+    text-align: center;
+}
+
+.section-with-text  img {
+    width: 170px;
+    height: 170px;
+
+}
+.section-with-text h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.section-with-text p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}

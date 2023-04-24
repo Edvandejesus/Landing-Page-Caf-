@@ -1,16 +1,22 @@
 * {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
     border: none;
     outline: none;
     font-weight: 300;
     box-sizing: border-box;
     font-family: 'source Serif Pro', serif;
+  
 }
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 /*** Animação do texto h2 ***/
 .Digitacao_texto {
-     
+
     overflow: hidden;
     border-right: .15em solid rgb(243, 240, 235);
     /* Define o cursor piscando */
@@ -20,9 +26,9 @@
     margin: 0 auto;
     /* Centraliza o texto */
 
-    letter-spacing: .15em;
+    letter-spacing: .14em;
     /* Define o espaçamento entre as letras */
-    animation: digitar 5s steps(30) infinite;
+    animation: digitar 6s steps(30) infinite;
 }
 
 @keyframes digitar {
@@ -31,15 +37,15 @@
     }
 
     to {
-        width: 100%;
+        width: 72%;
     }
 }
 
 /*** Fim da animação do texto h2 ***/
-
 a {
     text-decoration: none;
     color: black;
+    font-size: ;
 }
 
 ul {
@@ -66,7 +72,7 @@ body {
 
 .cabecalho .logo {
 
-    background: url(../image/logo.jpg)center center no-repeat;
+    background: url(../image/logo.jpg);
     width: 85px;
     height: 85px;
     display: inline-block;
@@ -101,7 +107,8 @@ body {
 .panel {
     background: url(../image/painel.jpg) center center no-repeat;
     height: 600px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(31, 29, 29, 0.6)), url(../image/painel.jpg)
+    background-size: cover;
+   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(31, 29, 29, 0.7)), url(../image/painel.jpg) ;
 }
 
 .panel h2 {
@@ -114,15 +121,18 @@ body {
     transform: translateY(-50%);
 }
 
+/*** Start section post ***/
+
 .section-with-text {
     padding: 153px;
     text-align: center;
+    clear: both;
 }
 
 .section-with-text img {
     width: 170px;
     height: 170px;
-    margin-bottom: 70px;
+
 }
 
 .section-with-text h2 {
@@ -136,6 +146,7 @@ body {
     width: 702px;
     margin: 0 auto;
     margin-bottom: 40px;
+    clear: both;
 }
 
 .section-with-text.onde-estamos p {
@@ -143,10 +154,6 @@ body {
     width: 480px;
 }
 
-header img {
-
-    margin-top: 153px;
-}
 
 .ladrilho {
     width: auto;
@@ -156,7 +163,6 @@ header img {
     float: left;
 
 }
-
 .ladrilho .grande {
     background: url(../image/4.jpg) center center no-repeat;
     height: 600px;
@@ -179,4 +185,86 @@ header img {
     background: url(../image/1.jpg) center center no-repeat;
     height: 300px;
     width: 50%;
+}
+
+
+/*** Star contact section ***/
+
+.contact {
+
+    background-image: url(../image/fundo-contato.jpg)  ;
+    color: white;
+    position: relative;
+    height: 600px;
+
+}
+
+.contact h2 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'source Serif Pro', serif;
+
+}
+.contact address {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+ address {
+    font-size: 25px;
+    font-weight: 600;
+ 
+}
+.contact .texto {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+}
+
+/** footer **/
+
+.rodape {
+    background: url(../image/fundo-rodape.jpg) ;
+    padding: 30px 30px;
+    background-size: cover;
+   
+}
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+
+}
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+} 
+.rodape ul li a {
+    color: white;
+}
+.rodape ul li a:hover {
+    font-weight: bold;
+    color: #CF9F55;
+
+}
+.rodape .copyright {
+    color: white;
+}
+.rodape .redes_sociais .facebook,
+.rodape .redes_sociais .instagram{
+
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+  
+}
+
+.rodape .redes_sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo_rodape{
+    margin-top: 30px;
+    
 }

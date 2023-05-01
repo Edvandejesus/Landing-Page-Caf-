@@ -6,8 +6,9 @@
     font-weight: 300;
     box-sizing: border-box;
     font-family: 'source Serif Pro', serif;
-  
+
 }
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -31,9 +32,9 @@ html {
     margin: 0 auto;
     /* Centraliza o texto */
 
-    letter-spacing: .14em;
+    letter-spacing: .15em;
     /* Define o espaçamento entre as letras */
-    animation: digitar 6s steps(30) infinite;
+    animation: digitar 7s steps(30) infinite;
 }
 
 @keyframes digitar {
@@ -42,7 +43,7 @@ html {
     }
 
     to {
-        width: 75%;
+        width: 78%;
     }
 }
 
@@ -50,7 +51,7 @@ html {
 a {
     text-decoration: none;
     color: black;
-    font-size: ;
+    font-size: 1.8rem;
 }
 
 ul {
@@ -70,14 +71,14 @@ body {
 /*** start header style ***/
 
 .cabecalho {
-    padding: 30px 15px;
+    padding: 10px 15px;
     position: relative;
 
 }
 
 .cabecalho .logo {
 
-    background:url(../image/logo.jpg);
+    background: url(../image/logo.jpg);
     width: 85px;
     height: 85px;
     display: inline-block;
@@ -115,7 +116,7 @@ body {
     background: url(../image/painel.jpg) center center no-repeat;
     height: 600px;
     background-size: cover;
-   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(31, 29, 29, 0.7)), url(../image/painel.jpg) ;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(31, 29, 29, 0.7)), url(../image/painel.jpg);
 }
 
 .panel h2 {
@@ -131,7 +132,7 @@ body {
 /*** Start section post ***/
 
 .section-with-text {
-    padding: 153px;
+    padding: 153px 25px 2px 25px;
     text-align: center;
     clear: both;
 }
@@ -145,7 +146,8 @@ body {
 .section-with-text h2 {
     font-size: 45px;
     font-weight: 600;
-    margin-bottom: 37px;
+    margin-bottom: 46px;
+
 }
 
 .section-with-text p {
@@ -170,6 +172,7 @@ body {
     float: left;
 
 }
+
 .ladrilho .grande {
     background: url(../image/4.jpg) center center no-repeat;
     height: 600px;
@@ -199,7 +202,7 @@ body {
 
 .contact {
 
-    background-image: url(../image/fundo-contato.jpg)  ;
+    background-image: url(../image/fundo-contato.jpg);
     color: white;
     position: relative;
     height: 600px;
@@ -212,16 +215,19 @@ body {
     font-family: 'source Serif Pro', serif;
 
 }
+
 .contact address {
     font-size: 25px;
     font-weight: 600;
 
 }
- address {
+
+address {
     font-size: 25px;
     font-weight: 600;
- 
+
 }
+
 .contact .texto {
     position: absolute;
     top: 30%;
@@ -232,38 +238,44 @@ body {
 /** footer **/
 
 .rodape {
-    background: url(../image/fundo-rodape.jpg) ;
+    background: url(../image/fundo-rodape.jpg);
     padding: 30px 30px;
     background-size: cover;
-   
+
 }
+
 .rodape ul {
     float: right;
     margin-top: 30px;
 
 }
+
 .rodape ul li {
     display: inline-block;
     padding: 15px;
-} 
+}
+
 .rodape ul li a {
     color: white;
 }
+
 .rodape ul li a:hover {
     font-weight: bold;
     color: #CF9F55;
 
 }
+
 .rodape .copyright {
     color: white;
 }
+
 .rodape .redes_sociais .facebook,
-.rodape .redes_sociais .instagram{
+.rodape .redes_sociais .instagram {
 
     width: 20px;
     height: 20px;
     margin: 10px;
-  
+
 }
 
 .rodape .redes_sociais {
@@ -271,9 +283,7 @@ body {
     clear: both;
 }
 
-.rodape .conteudo_rodape{
+.rodape .conteudo_rodape {
     margin-top: 30px;
-    
+
 }
-
-

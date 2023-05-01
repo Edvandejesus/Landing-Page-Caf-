@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
     .section-with-text {
-        padding: 153px 25px;
+        padding: 153px 25px 2px 25px;
     }
 
     .section-with-text p,
@@ -8,85 +8,118 @@
         width: 100%;
     }
 
-
 }
 
+@media (max-width: 761px) {
+    .contact {
+        background-image: none;
+        background-color: #D09F53;
+    }
 
-
-@media (max-width: 768px) {
-
-    
+    .contact .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
 }
+
 @media (max-width: 720px) {
-    .ladrilho .grande, 
+
+    .ladrilho .grande,
     .ladrilho .medio {
-        width:100% ;
+        width: 100%;
+    }
+
+    .rodape .logo_rodape {
+        display: block;
+
+
+    }
+
+    .rodape {
+        text-align: center;
+    }
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+
+    }
+
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape .redes_sociais {
+        float: none;
     }
 
     .ladrilho .pequeno,
     .ladrilho .pequeno1 {
         width: 50%;
     }
+
     @media (max-width: 375px) {
+
         .ladrilho .pequeno,
         .ladrilho .pequeno1 {
             width: 100%;
         }
-
     }
 
-}
+    /*** Tempo de animação texto do banner princiapal ***/
 
-@media (max-width: 525px) {
-    .cabecalho .logo {
-        display: block;
-        margin: 0 auto;
+    @keyframes digitar {
+        from {
+            width: 0;
+        }
 
-    }
+        to {
+            width: 105%;
+        }
 
-    .cabecalho nav {
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
-
-    .cabecalho nav ul li {
-        display: block;
-
-    }
-
-    .cabecalho ul li a {
-        display: block;
-        width: 100%;
-    }
-
-    .panel h2 {
-        font-size: 2.6rem;
-    }
-
-    .section-with-text h2 {
-        font-size: 3rem;
-        width: 100%;
-    }
-
-    .section-with-text p,
-    .section-with-text .onde-estamos p {
-        width: 100%;
-        font-size: 2rem;
-    }
-
-
-}
-
-/*** Tempo de animação texto do banner princiapal ***/
-
-@keyframes digitar {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 105%;
     }
 
     /*** Fim Tempo de animação texto do banner princiapal ***/
+
+    @media (max-width: 525px) {
+        .cabecalho .logo {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        .cabecalho nav {
+            position: static;
+            text-align: center;
+            width: 100%;
+        }
+
+        .cabecalho nav ul li {
+            display: block;
+
+        }
+
+        .cabecalho ul li a {
+            display: block;
+            width: 100%;
+        }
+
+        .panel h2 {
+            font-size: 2.6rem;
+        }
+
+        .section-with-text h2 {
+            font-size: 3rem;
+            width: 100%;
+        }
+
+        .section-with-text p,
+        .section-with-text .onde-estamos p {
+            width: 100%;
+            font-size: 2rem;
+        }
+
+    }
